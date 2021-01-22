@@ -1,0 +1,15 @@
+{
+  "autorun": false,
+  "terminals": [
+    {
+      "name": "Watch",
+      "focus": true,
+      "command": "npm start"
+    },
+    {
+      "name": "Example",
+      "focus": false,
+      "command": "cd example && npm start"
+    }
+  ]
+}
