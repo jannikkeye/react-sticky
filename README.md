@@ -2,27 +2,37 @@
 
 > React component for sticky DOM elements.
 
-[![NPM](https://img.shields.io/npm/v/react-sticky.svg)](https://www.npmjs.com/package/react-sticky) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-sticky-scroll.svg)](https://www.npmjs.com/package/react-sticky-scroll)
 
 ## Install
 
 ```bash
-npm install --save react-sticky
+npm install --save react-sticky-scroll
 ```
 
 ## Usage
 
+Wrap the component you want to be sticky.
+
 ```tsx
-import React, { Component } from 'react'
+import React from "react";
 
-import MyComponent from 'react-sticky'
-import 'react-sticky/dist/index.css'
+import { Sticky } from "react-sticky-scroll";
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+const StickyNavBar = () => {
+  return (
+    <Sticky>
+      <nav>
+        <ul>
+          <li>Nav A</li>
+          <li>Nav B</li>
+          <li>Nav C</li>
+          <li>Nav D</li>
+        </ul>
+      </nav>
+    </Sticky>
+  );
+};
 ```
 
 ## License

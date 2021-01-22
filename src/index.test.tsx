@@ -1,7 +1,7 @@
-import Sticky from '.'
+import Sticky from ".";
 
-describe('ExampleComponent', () => {
-  it('is truthy', () => {
-    expect(Sticky).toBeTruthy()
-  })
-})
+describe("ExampleComponent", () => {
+  it("is truthy", () => {
+    expect(Sticky).toBeTruthy();
+  });
+});
