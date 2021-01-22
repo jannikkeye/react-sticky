@@ -1,4 +1,4 @@
-# react-sticky
+# react-sticky-element
 
 > React component for sticky DOM elements.
 
